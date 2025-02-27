@@ -1,4 +1,4 @@
-function addNumbers(a, b) {
+  function addNumbers(a, b) {
     return a + b;
 }
 
@@ -23,6 +23,6 @@ function action(type, a, b) {
     }
 }
 
-console.log(action('add', 10, 5));
-console.log(action('subtract', 10, 5));
-console.log(action('multiply', 10, 5)); 
+console.table([(action('subtract', 10, 5)),
+    (action('add', 10, 5)),
+    (action('multiply', 10, 5))])
