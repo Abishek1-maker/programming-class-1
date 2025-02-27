@@ -1,7 +1,6 @@
 let Time = new Date().getHours();
 let Break;
 
-// Using switch statement
 switch (true) {
     case (Time >= 9 && Time < 11):
         Break = "runningclass";
@@ -17,7 +16,7 @@ switch (true) {
         break;
 }
 
-// Using if-else statement
+
 if (Time >= 12 && Time < 13) {
     console.log(Break + " tiffin time");
 } else {
