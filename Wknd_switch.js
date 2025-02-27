@@ -9,7 +9,7 @@ switch(day){
         break;
     case 2:
         dayName = "Tuesday";
-        break;
+       break;
     case 3:
         dayName = "Wednesday";
         break;
